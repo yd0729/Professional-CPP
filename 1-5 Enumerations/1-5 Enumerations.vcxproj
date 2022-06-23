@@ -21,10 +21,10 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{a1acb254-ae4d-44c9-9dbc-0c85ecc2312c}</ProjectGuid>
-    <RootNamespace>_1_2_Namespaces</RootNamespace>
+    <ProjectGuid>{a7e04f57-39c2-4f04-b910-96c357800766}</ProjectGuid>
+    <RootNamespace>_1_5_Enumerations</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>02 Namespaces</ProjectName>
+    <ProjectName>05 Enumerations</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -108,7 +108,7 @@
       <LanguageStandard>stdcpp20</LanguageStandard>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
       <EnableModules>true</EnableModules>
-      <CompileAs>CompileAsCppModuleInternalPartition</CompileAs>
+      <CompileAs>CompileAsCppModule</CompileAs>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

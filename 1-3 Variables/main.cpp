@@ -5,17 +5,8 @@ import <limits>;  // numeric_limits
 
 using namespace std;
 
-// Strongly typed enumeration types
-enum class PieceType : unsigned long { King, Queen, Rook = 10, Pawn };
-
-// Different strongly typed enumerations can have enumeration values with the same name.
-enum class State { Unknown, Started, Finished }; 
-enum class Error { None, BadInput, DiskFull, Unknown };
-
-using enum State;
-// using Error::Unknown;  // conflit
-
-int main() {
+int main()
+{
     // Variables
     int uninitializedInt;
     int initializedInt { 7 };  // uniform initialization
@@ -58,8 +49,4 @@ int main() {
     cout << "d = " << d << " " << isinf(d) << " " << isinf(-numeric_limits<double>::infinity()) << endl;
     d = 0.0 / zero;
     cout << "d = " << d << " " << isnan(d) << " " << isnan(numeric_limits<double>::quiet_NaN()) << endl;
-
-    // Enumerated Types
-    PieceType piece { PieceType::King };
-    cout << format("piece = {}", static_cast<int>(piece)) << endl;
 }
