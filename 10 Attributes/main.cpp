@@ -41,10 +41,32 @@ bool isFeatureLicensed(int /*featureId*/)
     }
 }
 
+[[deprecated("Unsafe method, please use xyz")]] void deprcated_func()
+{}
+
 int main()
 {
     func();  // warning C4858: 正在放弃返回值: some explanation
     func(1, 2);
+    //deprcated_func();  // error C4996
+
+    int value { 4 };
+    if(value > 11) [[unlikely]]
+    {
+    }
+    else
+    {
+    }
+
+    switch(value)
+    {
+    [[likely]] case 1:
+        break;
+    case 2:
+        break;
+    [[unlikely]] case 12:
+        break;
+    }
 
     bool isLicensed { isFeatureLicensed(42) };
     std::cout << isLicensed << std::endl;

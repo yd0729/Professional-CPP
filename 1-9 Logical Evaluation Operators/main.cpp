@@ -18,22 +18,52 @@ int main()
 
 void print_ordering(const strong_ordering& order)
 {
-    if(is_lt(order)) { cout << "less" << endl; }
-    if(is_gt(order)) { cout << "greater" << endl; }
-    if(is_eq(order)) { cout << "equal" << endl; }
+    if(is_lt(order))
+    {
+        cout << "less" << endl;
+    }
+    if(is_gt(order))
+    {
+        cout << "greater" << endl;
+    }
+    if(is_eq(order))
+    {
+        cout << "equal" << endl;
+    }
 }
 
 void print_ordering(const partial_ordering& order)
 {
-    if(order == partial_ordering::less) { cout << "less" << endl; }
-    if(order == partial_ordering::greater) { cout << "greater" << endl; }
-    if(order == partial_ordering::equivalent) { cout << "equivalent" << endl; }
-    if(order == partial_ordering::unordered) { cout << "unordered" << endl; }
+    if(order == partial_ordering::less)
+    {
+        cout << "less" << endl;
+    }
+    if(order == partial_ordering::greater)
+    {
+        cout << "greater" << endl;
+    }
+    if(order == partial_ordering::equivalent)
+    {
+        cout << "equivalent" << endl;
+    }
+    if(order == partial_ordering::unordered)
+    {
+        cout << "unordered" << endl;
+    }
 }
 
 void print_ordering(const weak_ordering& order)
 {
-    if(order == weak_ordering::less) { cout << "less" << endl; }
-    if(order == weak_ordering::greater) { cout << "greater" << endl; }
-    if(order == weak_ordering::equivalent) { cout << "equivalent" << endl; }
+    if(order == weak_ordering::less)
+    {
+        cout << "less" << endl;
+    }
+    if(order == weak_ordering::greater)
+    {
+        cout << "greater" << endl;
+    }
+    if(order == weak_ordering::equivalent)
+    {
+        cout << "equivalent" << endl;
+    }
 }

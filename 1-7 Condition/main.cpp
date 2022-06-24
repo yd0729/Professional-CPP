@@ -13,7 +13,10 @@ int main()
     }
 
     // switch
-    enum class Mode { Default, Custom, Standard };
+    enum class Mode
+    {
+        Default, Custom, Standard
+    };
 
     int value { 42 };
     Mode mode { Mode::Custom };
