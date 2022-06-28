@@ -1,8 +1,11 @@
-import <iostream>;
+﻿import <iostream>;
 
 using namespace std;
 
-void func(int i) { cout << "func(int)" << endl; }
+void func(int i)
+{
+	cout << "func(int)" << endl;
+}
 
 int main()
 {

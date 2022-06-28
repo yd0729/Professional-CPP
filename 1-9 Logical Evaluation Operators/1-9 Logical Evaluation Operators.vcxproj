@@ -24,7 +24,7 @@
     <ProjectGuid>{e57afcea-4109-4a99-8f94-81c6b5cbfd13}</ProjectGuid>
     <RootNamespace>_1_9_Logical_Evaluation_Operators</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>08 Logical Evaluation Operators</ProjectName>
+    <ProjectName>08. Logical Evaluation Operators</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

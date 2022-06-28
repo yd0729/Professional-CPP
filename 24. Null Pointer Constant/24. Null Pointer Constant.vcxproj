@@ -21,10 +21,10 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{7ff0d464-71f2-4f23-9ee2-a58d5cb15bef}</ProjectGuid>
-    <RootNamespace>_1_10_Functions</RootNamespace>
+    <ProjectGuid>{37196b00-585a-4d8c-a95d-2184f6a3444e}</ProjectGuid>
+    <RootNamespace>_24__Null_Pointer_Constant</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>09. Functions</ProjectName>
+    <ProjectName>24. Null Pointer Constant</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

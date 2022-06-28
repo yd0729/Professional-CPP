@@ -24,7 +24,7 @@
     <ProjectGuid>{98a3b512-ddc2-4772-b1c6-803e15ace8d1}</ProjectGuid>
     <RootNamespace>_17_Initializer_Lists</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>17 Initializer Lists</ProjectName>
+    <ProjectName>17. Initializer Lists</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

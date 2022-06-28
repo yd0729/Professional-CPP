@@ -24,7 +24,7 @@
     <ProjectGuid>{c111d4a7-54d3-429e-8e8c-55e56935e6fb}</ProjectGuid>
     <RootNamespace>_15__Structured_Bindings</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>15 Structured Bindings</ProjectName>
+    <ProjectName>15. Structured Bindings</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
