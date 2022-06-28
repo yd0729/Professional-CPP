@@ -4,7 +4,8 @@ using namespace std;
 
 double AirlineTicket::calculatePriceInDollars() const
 {
-	if (getHasEliteSuperRewardsStatus()) {
+	if(getHasEliteSuperRewardsStatus())
+	{
 		// Elite Super Rewards customers fly for free!
 		return 0;
 	}
