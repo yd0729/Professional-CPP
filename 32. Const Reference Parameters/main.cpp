@@ -1,4 +1,4 @@
-import <string>;
+﻿import <string>;
 import <iostream>;
 
 using namespace std;
@@ -10,7 +10,7 @@ void printString(const string& myString)
 
 int main()
 {
-	string someString{ "Hello World" };
+	string someString { "Hello World" };
 	printString(someString);
 	printString("Hello World");  // Passing literals works
 }

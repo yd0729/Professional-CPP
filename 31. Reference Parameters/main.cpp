@@ -1,4 +1,4 @@
-void addOneA(int i)
+﻿void addOneA(int i)
 {
 	i++;  // Has no real effect because this is a copy of the original
 }
@@ -10,24 +10,22 @@ void addOneB(int& i)
 
 void swap(int& first, int& second)
 {
-	int temp{ first };
+	int temp { first };
 	first = second;
 	second = temp;
 }
 
 int main()
 {
-	int myInt{ 7 };
+	int myInt { 7 };
 	addOneA(myInt);
 	addOneB(myInt);
 
-
-
-	int x{ 5 }, y{ 6 };
+	int x { 5 }, y { 6 };
 	swap(x, y);
 
 	//  swap(3, 4); // DOES NOT COMPILE
 
-	int* xp{ &x }, * yp{ &y };
+	int* xp { &x }, * yp { &y };
 	swap(*xp, *yp);
 }
